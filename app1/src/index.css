@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  padding: 0;
+  background-color: #ede8e8;
+  /*background-color: #f5f5f5;*/
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc; /* Add border around the quiz */
+  border-radius: 5px; /* Rounded corners for the quiz */
+  background-color: white; /* Background color for the quiz */
+}
+
+h2,
+h1 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.question {
+  background-color: #f9f9f9; /* Background color for questions */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px; /* Rounded corners for questions */
+}
+
+.question h4 {
+  margin-top: 0;
+  color: #333; /* Color for question text */
+}
+
+.question label {
+  margin-left: 10px;
+  color: #555; /* Color for answer options */
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: larger;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
